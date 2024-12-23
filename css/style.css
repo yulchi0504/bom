@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", serif;
+  background-color: cadetblue;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-img {
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/iphine.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-fon {
+  width: 310px;
+  height: 665px;
+  background-image: url("../img/fonne.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+}
+.plane-clock {
+  display: flex;
+  gap: 5px;
+}
+.clock {
+  color: white;
+  padding: 20px 0 0 28px;
+  font-size: 13px;
+}
+.plane {
+  width: 17px;
+  padding-top: 17px;
+}
+.phone-fon {
+  width: 90px;
+  height: 27px;
+  background-color: black;
+
+  border-radius: 15px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px;
+}
+
+.battery {
+  width: 25px;
+  height: 12px;
+  transform: translate(130px, -23px);
+}
+.opasity-fon {
+  width: 295px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 25px;
+  opacity: 0.4;
+  transform: translateY(283px);
+}
+.ilovalar {
+  display: flex;
+  margin: 0 auto;
+  width: 53px;
+  position: relative;
+  top: 20px;
+  z-index: 1;
+  transform: translateY(323px);
+}
+a {
+  text-decoration: none;
+}
+.application {
+  padding: 0 13px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 2fr);
+}
+p {
+  text-align: center;
+  padding-right: 2px;
+  font-size: 10px;
+  color: white;
+}
+.camera {
+  width: 60px;
+  height: 60px;
+}
+.alarm-img {
+  max-width: 310px;
+  height: 400px;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 0.9;
+}
+.alarm-png {
+  width: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+.time {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+.hour select {
+  width: 80px;
+  height: 40px;
+  border: 1px green solid;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+.hour {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.btn-alarm {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.hour {
+  margin-top: 30px;
+}
+.btn-alarm {
+  margin-top: 50px;
+}
+.saqlash {
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.ochirish {
+  color: white;
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.matn-kiritish {
+  color: white;
+  background-color: red;
+  padding: 10px 104px;
+  border-radius: 15px 15px 0 0;
+}
+
+.input {
+  padding: 10px 105px 100px 6px;
+  margin-top: 10px;
+  outline: none;
+  color: black;
+  font-size: 16px;
+}
+.label {
+  padding: 15px 40px;
+  background-color: green;
+  outline: none;
+  border: none;
+  position: relative;
+  right: 95px;
+  color: white;
+  font-size: 16px;
+}
+.btn-translate {
+  background-color: blue;
+  outline: none;
+  padding: 16px 19.4px;
+  color: white;
+  font-size: 16px;
+  transform: translate(177px, -50px);
+  border: none;
+}
+.natija {
+  color: white;
+  text-align: center;
+  background-color: red;
+  padding: 8px;
+  position: relative;
+  bottom: 50px;
+}
+.natija-translate {
+  width: 310px;
+  height: 200px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 220px;
+  background-color: white;
+  color: black;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  bottom: 50px;
+}
